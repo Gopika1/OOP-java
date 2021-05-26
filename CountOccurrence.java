@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CountOccurrence_2
+public class CountOccurrence
 {
     public static void main(String[] args) 
     {
