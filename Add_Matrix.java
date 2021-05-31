@@ -69,7 +69,7 @@ public class Add_Matrix
 
             for (int i = 0; i < p; i++) 
             {
-                for (int j = 0; j < q; j++) 
+                for (int j = 0; j < n; j++) 
                 {
                     System.out.print(c[i][j]+" ");
                 }
