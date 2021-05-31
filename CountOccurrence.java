@@ -5,7 +5,7 @@ public class CountOccurrence
     {
         int n, item, count = 0;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter limit:");
+        System.out.print("Enter number of Elements:");
         n = s.nextInt();
         int a[] = new int[n];
         System.out.println("Enter the array elements:");
