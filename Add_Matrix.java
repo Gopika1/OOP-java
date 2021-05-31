@@ -58,12 +58,10 @@ public class Add_Matrix
 
             for (int i = 0; i < p; i++) 
             {
-                for (int j = 0; j < n; j++) 
+                for (int j = 0; j < q; j++) 
                 {
-                    for (int k = 0; k < q; k++) 
-                    {
+                   
                         c[i][j] = a[i][j] + b[i][j];
-                    }
                 }
             }
 
@@ -71,7 +69,7 @@ public class Add_Matrix
 
             for (int i = 0; i < p; i++) 
             {
-                for (int j = 0; j < n; j++) 
+                for (int j = 0; j < q; j++) 
                 {
                     System.out.print(c[i][j]+" ");
                 }
