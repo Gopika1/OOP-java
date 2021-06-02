@@ -23,12 +23,11 @@ class SymmetricMatrix{
                }
            }
           int flag =0;
-          first:
           for(int i =0; i < n; i++){
              for(int j = 0; j < m;j++){
                  if(a[i][j] != b[i][j]){
                      flag =1;
-                     break first;
+                     break;
                   }
               }
           }
